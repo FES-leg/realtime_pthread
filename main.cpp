@@ -52,7 +52,7 @@ void* rt(void* cookie){
 
 
 
-    while(loop_count<5000){
+    while(loop_count<60000){
 
         realtime_loop_time_stats.loop_starting_point();
 
@@ -129,7 +129,7 @@ int main()
     pthread_attr_setinheritsched( &attr, PTHREAD_EXPLICIT_SCHED);
     policy = SCHED_OTHER;
     pthread_attr_setschedpolicy( &attr, policy);
-    prio.sched_priority = -20; // priority range should be btw -20 to +19
+    prio.sched_priority = 1; // priority range should be btw -20 to +19
     pthread_attr_setschedparam(&attr,&prio);
 
     if ( pthread_create(&nrt_loop, &attr, nrt, nullptr) ){
