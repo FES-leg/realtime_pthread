@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.9.2, 2021-02-19T14:38:23. -->
+<!-- Written by QtCreator 4.9.2, 2021-02-22T17:55:05. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -365,7 +365,7 @@
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory"></value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/tmp/QtCreator-HEsnaq/qtc-cmake-lYGrBKPH</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/esmacat/realtime_ws/build-realtime_pthread-Desktop-Default</value>
    </valuemap>
    <value type="int" key="ProjectExplorer.Target.RunConfigurationCount">1</value>
   </valuemap>
